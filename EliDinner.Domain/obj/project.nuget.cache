@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nhSjcljUi+oiqETsiNCU7s0FgWJ9JvIavp7YHG1QM2pSefrTV9+ZWYNZ7HBiyfOgkX/ePAGH1QKpJNSpQnek1Q==",
+  "success": true,
+  "projectFilePath": "/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Domain/EliDinner.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/elijahamoako/.nuget/packages/erroror/1.3.0/erroror.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

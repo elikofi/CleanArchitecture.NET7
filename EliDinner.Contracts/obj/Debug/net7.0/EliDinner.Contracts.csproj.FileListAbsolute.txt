@@ -1,0 +1,24 @@
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.deps.json
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.pdb
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.csproj.AssemblyReference.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.AssemblyInfoInputs.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.AssemblyInfo.cs
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/refint/EliDinner.Contracts.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.pdb
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/ref/EliDinner.Contracts.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.deps.json
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/bin/Debug/net7.0/EliDinner.Contracts.pdb
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.csproj.AssemblyReference.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.AssemblyInfoInputs.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.AssemblyInfo.cs
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/refint/EliDinner.Contracts.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/EliDinner.Contracts.pdb
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Contracts/obj/Debug/net7.0/ref/EliDinner.Contracts.dll

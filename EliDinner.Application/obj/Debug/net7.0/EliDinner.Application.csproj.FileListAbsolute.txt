@@ -1,0 +1,30 @@
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.AssemblyReference.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.AssemblyInfoInputs.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.AssemblyInfo.cs
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.deps.json
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.pdb
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Domain.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Domain.pdb
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.CopyComplete
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/refint/EliDinner.Application.dll
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.pdb
+/Users/elijahamoako/Projects/EliDinner/EliDinner.Application/obj/Debug/net7.0/ref/EliDinner.Application.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.deps.json
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Application.pdb
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Domain.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/bin/Debug/net7.0/EliDinner.Domain.pdb
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.AssemblyReference.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.AssemblyInfoInputs.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.AssemblyInfo.cs
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.csproj.CopyComplete
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/refint/EliDinner.Application.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/EliDinner.Application.pdb
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/obj/Debug/net7.0/ref/EliDinner.Application.dll
