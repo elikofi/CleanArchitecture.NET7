@@ -97,3 +97,6 @@
 /Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/MediatR.dll
 /Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/Mapster.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/Mapster.Core.dll
+/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/bin/Debug/net7.0/Mapster.DependencyInjection.dll

@@ -1,24 +1,19 @@
-﻿using EliDinner.Api.Errors;
+﻿using EliDinner.Api;
 using EliDinner.Application;
 using EliDinner.Infractructure;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //DI
 builder.Services
+    .AddPresentation()
     .AddApplication()
     .AddInfrastructure(builder.Configuration); //added services from DI class.
 
 
 
-builder.Services.AddControllers();
 
-//error handling with custom problem details factory.
-builder.Services.AddSingleton<ProblemDetailsFactory, EliDinnerProblemDetailsFactory>();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
