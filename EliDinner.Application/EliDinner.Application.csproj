@@ -10,27 +10,36 @@
     <ProjectReference Include="..\EliDinner.Domain\EliDinner.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Services\" />
-    <None Remove="Services\Authentication\" />
     <None Remove="Common\" />
     <None Remove="Common\Interfaces\" />
     <None Remove="Common\Interfaces\Authentication\" />
     <None Remove="Common\Interfaces\Services\" />
     <None Remove="Common\Interfaces\Persistence\" />
     <None Remove="Common\Errors\" />
+    <None Remove="Authentication\" />
+    <None Remove="Authentication\Commands\" />
+    <None Remove="Authentication\Commands\Register\" />
+    <None Remove="Authentication\Queries\" />
+    <None Remove="Authentication\Queries\Login\" />
+    <None Remove="Authentication\Common\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Services\Authentication\" />
     <Folder Include="Common\" />
     <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Interfaces\Authentication\" />
     <Folder Include="Common\Interfaces\Services\" />
     <Folder Include="Common\Interfaces\Persistence\" />
     <Folder Include="Common\Errors\" />
+    <Folder Include="Authentication\" />
+    <Folder Include="Authentication\Commands\" />
+    <Folder Include="Authentication\Commands\Register\" />
+    <Folder Include="Authentication\Queries\" />
+    <Folder Include="Authentication\Queries\Login\" />
+    <Folder Include="Authentication\Common\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="fluentResults" Version="3.15.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
 </Project>

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+YlvoLkrFlLgQsZX81AlNaHOo4lNwSK+zwSLq0qYUapbKZbdGY+B1ZBHk9yaFNnPVbIpjT9weT0657YT5/NMbg==",
+  "dgSpecHash": "pfbOpLN1lwNkx062W7yHEVJy5wcB0xgVJ4eQbJsIHYFbLtN9uboUXZeSYSO/s69w8UOd17uZst5DqpklTsLKSg==",
   "success": true,
   "projectFilePath": "/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Application/EliDinner.Application.csproj",
   "expectedPackageFiles": [
     "/Users/elijahamoako/.nuget/packages/erroror/1.3.0/erroror.1.3.0.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/fluentresults/3.15.2/fluentresults.3.15.2.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"

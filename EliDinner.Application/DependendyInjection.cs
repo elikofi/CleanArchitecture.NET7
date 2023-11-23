@@ -1,5 +1,5 @@
 ﻿using System;
-using EliDinner.Application.Services.Authentication;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace EliDinner.Application
@@ -8,8 +8,7 @@ namespace EliDinner.Application
 	{
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddScoped<IAuthenticationService, AuthenticationService>();
-
+            services.AddMediatR(typeof(DependendyInjection).Assembly);
             return services;
         }
 

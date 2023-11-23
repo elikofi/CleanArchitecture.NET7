@@ -1,44 +1,26 @@
 ﻿<Properties StartupConfiguration="{B2AF0CC1-3943-453F-BE2F-C2BCE02BF27E}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Api/Controllers/AuthenticationController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Api/Program.cs">
     <Files>
-      <File FileName="EliDinner.Api/Common/Errors/EliDinnerProblemDetailsFactory.cs" Line="7" Column="1" />
-      <File FileName="EliDinner.Application/Services/Authentication/AuthenticationService.cs" Line="25" Column="49" />
-      <File FileName="EliDinner.Api/Controllers/ErrorsController.cs" Line="14" Column="8" />
-      <File FileName="EliDinner.Application/Services/Authentication/IAuthenticationService.cs" Line="5" Column="2" />
-      <File FileName="EliDinner.Application/Errors/DuplicateEmailError.cs" Line="4" Column="46" />
-      <File FileName="EliDinner.Api/Controllers/AuthenticationController.cs" Line="47" Column="52" />
-      <File FileName="EliDinner.Application/Common/Errors/IError.cs" Line="10" Column="38" />
+      <File FileName="EliDinner.Api/Program.cs" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EliDinner" expanded="True">
-            <Node name="EliDinner.Api" expanded="True">
-              <Node name="Common" expanded="True">
-                <Node name="Errors" expanded="True" />
-              </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="AuthenticationController.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="EliDinner.Application">
-              <Node name="Common" expanded="True">
-                <Node name="Errors" expanded="True" />
-              </Node>
-              <Node name="Services" expanded="True">
-                <Node name="Authentication" expanded="True" />
-              </Node>
+            <Node name="EliDinner.Api">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

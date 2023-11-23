@@ -14,6 +14,7 @@ builder.Services
 
 
 builder.Services.AddControllers();
+
 //error handling with custom problem details factory.
 builder.Services.AddSingleton<ProblemDetailsFactory, EliDinnerProblemDetailsFactory>();
 
@@ -31,7 +32,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
-app.UseExceptionHandler("/error");
+app.UseExceptionHandler("/error");//This is to be checked on
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

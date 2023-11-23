@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "pBooZMunTUle8GAUS2rnApg7jKeUk81z/Levtq9z6YscXzuy9LIqBlM9ecVguotsYuQAiJ+Sq+6vKMHYFbhIRA==",
+  "dgSpecHash": "6bQ6S9fRju9vdR7TA9evpI/PU1mm2TsMxM/dhcGVgIisOt0cuEng1YnhJHH3gDFJTTEtx8unRN0EVEQsNwSGWg==",
   "success": true,
   "projectFilePath": "/Users/elijahamoako/Desktop/Essentials/Clean Architecture & DDD/EliDinner/EliDinner.Api/EliDinner.Api.csproj",
   "expectedPackageFiles": [
     "/Users/elijahamoako/.nuget/packages/erroror/1.3.0/erroror.1.3.0.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/fluentresults/3.15.2/fluentresults.3.15.2.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/elijahamoako/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",

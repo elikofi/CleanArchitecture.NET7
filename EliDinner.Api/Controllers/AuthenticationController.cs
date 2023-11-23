@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EliDinner.Application.Authentication.Commands.Register;
+using EliDinner.Application.Authentication.Common;
+using EliDinner.Application.Authentication.Queries.Login;
 using EliDinner.Application.Common.Errors;
-using EliDinner.Application.Services.Authentication;
 using EliDinner.Contracts.Authentication;
 using EliDinner.Domain.Common.Errors;
 using ErrorOr;
+using MediatR;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,21 +20,23 @@ namespace EliDinner.Api.Controllers
     [Route("auth")]
     public class AuthenticationController : ApiController
     {
-        private readonly IAuthenticationService _authenticationService;
+        private readonly ISender _mediator;
 
-        public AuthenticationController(IAuthenticationService authenticationService)
+        public AuthenticationController(ISender mediator)
         {
-            _authenticationService = authenticationService; 
+            _mediator = mediator;
         }
 
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            ErrorOr<AuthenticationResult> authResult = _authenticationService.Register(
-                request.FirstName,
+            var command = new RegisterCommand(request.FirstName,
                 request.LastName,
                 request.Email,
                 request.Password);
+
+            ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
+                
 
             return authResult.Match(
                 authResult => Ok(MapAuthResult(authResult)),
@@ -40,16 +46,13 @@ namespace EliDinner.Api.Controllers
 
 
         [HttpPost("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authResults = _authenticationService.Login(
-                request.Email,
-                request.Password);
+            var query = new LoginQuery(request.Email, request.Password);
 
-            //if (Errors.Authentication.InvalidCredentials == authResults.IsError && authResults.FirstError)
-            //{
-            //    return Problem(statusCode: StatusCodes.Status401Unauthorized, title: authResults.FirstError.Description);
-            //}
+            var authResults = await _mediator.Send(query);
+
+             
 
             return authResults.Match(
                 authResults => Ok(MapAuthResult(authResults)),
