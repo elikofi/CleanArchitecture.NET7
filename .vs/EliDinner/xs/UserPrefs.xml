@@ -1,26 +1,43 @@
 ﻿<Properties StartupConfiguration="{B2AF0CC1-3943-453F-BE2F-C2BCE02BF27E}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Api/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Api/Controllers/AuthenticationController.cs">
     <Files>
-      <File FileName="EliDinner.Api/Program.cs" Line="7" Column="1" />
+      <File FileName="EliDinner.Api/Controllers/DinnersController.cs" />
+      <File FileName="EliDinner.Api/Controllers/ApiController.cs" />
+      <File FileName="EliDinner.Application/Authentication/Commands/Register/RegisterCommand.cs" />
+      <File FileName="EliDinner.Api/Program.cs" />
+      <File FileName="EliDinner.Infrastructure/DependendyInjection.cs" />
+      <File FileName="EliDinner.Api/appsettings.Development.json" />
+      <File FileName="EliDinner.Api/Controllers/AuthenticationController.cs" Line="29" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EliDinner" expanded="True">
-            <Node name="EliDinner.Api">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="EliDinner.Api" expanded="True">
+              <Node name="Common" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="AuthenticationController.cs" selected="True" />
+              </Node>
             </Node>
+            <Node name="EliDinner.Application" expanded="True">
+              <Node name="Authentication" expanded="True">
+                <Node name="Commands" expanded="True">
+                  <Node name="Register" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="EliDinner.Domain" expanded="True" />
+            <Node name="EliDinner.Infrastructure" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

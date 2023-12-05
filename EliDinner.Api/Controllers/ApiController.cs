@@ -4,23 +4,40 @@ using System.Linq;
 using System.Threading.Tasks;
 using EliDinner.Api.Common.Http;
 using ErrorOr;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace EliDinner.Api.Controllers
 {
     [ApiController]
+    [Authorize]
     public class ApiController : ControllerBase
     {
 
         protected IActionResult Problem(List<Error> errors)
         {
+            //if there are no errors
+            if (errors.Count is 0)
+            {
+                return Problem();
+            }
+            //if all the errors are validation errors, return a validation problem
+            if (errors.All(error => error.Type == ErrorType.Validation))
+            {
+                return ValidationProblem(errors);
+            }
+
             HttpContext.Items[HttpContextItemKeys.Errors] = errors;
 
-            var firstError = errors[0];
+            return Problem(errors[0]);
+        }
 
-            var statusCode = firstError.Type switch
+        private IActionResult Problem(Error error)
+        {
+            var statusCode = error.Type switch
             {
                 ErrorType.Conflict => StatusCodes.Status409Conflict,
                 ErrorType.Validation => StatusCodes.Status400BadRequest,
@@ -28,7 +45,21 @@ namespace EliDinner.Api.Controllers
                 _ => StatusCodes.Status500InternalServerError,
             };
 
-            return Problem(statusCode: statusCode, title: firstError.Description);
+            return Problem(statusCode: statusCode, title: error.Description);
+        }
+
+        private IActionResult ValidationProblem(List<Error> errors)
+        {
+            var modeltStateDictionary = new ModelStateDictionary();
+
+            foreach (var error in errors)
+            {
+                modeltStateDictionary.AddModelError(
+                    error.Code,//key
+                    error.Description); //value
+            }
+
+            return ValidationProblem(modeltStateDictionary);
         }
     }
 }

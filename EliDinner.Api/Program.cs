@@ -30,6 +30,8 @@ if (app.Environment.IsDevelopment())
 app.UseExceptionHandler("/error");//This is to be checked on
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();
