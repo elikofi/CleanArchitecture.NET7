@@ -22,6 +22,9 @@
     <None Remove="Authentication\Queries\Login\" />
     <None Remove="Authentication\Common\" />
     <None Remove="Common\Behaviours\" />
+    <None Remove="Menus\" />
+    <None Remove="Menus\Commands\" />
+    <None Remove="Menus\Commands\CreateMenu\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
@@ -36,6 +39,9 @@
     <Folder Include="Authentication\Queries\Login\" />
     <Folder Include="Authentication\Common\" />
     <Folder Include="Common\Behaviours\" />
+    <Folder Include="Menus\" />
+    <Folder Include="Menus\Commands\" />
+    <Folder Include="Menus\Commands\CreateMenu\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="fluentResults" Version="3.15.2" />
