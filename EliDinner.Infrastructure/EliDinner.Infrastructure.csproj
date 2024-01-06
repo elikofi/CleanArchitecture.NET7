@@ -13,11 +13,13 @@
     <None Remove="Authentication\" />
     <None Remove="Services\" />
     <None Remove="Persistence\" />
+    <None Remove="db\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Authentication\" />
     <Folder Include="Services\" />
     <Folder Include="Persistence\" />
+    <Folder Include="db\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
