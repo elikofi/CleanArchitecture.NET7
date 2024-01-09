@@ -18,7 +18,7 @@ namespace EliDinner.Domain.Host.ValueObjects
         {
             return new(Guid.NewGuid());
         }
-        public static HostId Create(string id)
+        public static HostId Create(Guid id)
         {
             return new( Guid.NewGuid());
         }

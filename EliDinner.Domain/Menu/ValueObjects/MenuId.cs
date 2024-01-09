@@ -16,12 +16,17 @@ namespace EliDinner.Domain.Menu.ValueObjects
         //it creates a new menu id object.
         public static MenuId CreateUnique()
         {
-            return new(Guid.NewGuid());
+            return new MenuId(Guid.NewGuid());
         }
 
         public override IEnumerable<object> GetEqualityComponents()
         {
             yield return Value;
+        }
+
+        public static MenuId Create(Guid value)
+        {
+            return new MenuId(value);
         }
     }
 }

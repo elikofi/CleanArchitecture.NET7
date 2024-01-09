@@ -2,7 +2,7 @@
 using EliDinner.Application.Common.Interfaces.Persistence;
 using EliDinner.Domain.Entities;
 
-namespace EliDinner.Infrastructure.Persistence
+namespace EliDinner.Infrastructure.Persistence.Repositories
 {
 	public class UserRepository : IUserRepository
 	{

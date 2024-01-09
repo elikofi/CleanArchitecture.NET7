@@ -1,33 +1,31 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{B2AF0CC1-3943-453F-BE2F-C2BCE02BF27E}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Infrastructure/Services/DateTimeProvider.cs">
+    <Files>
+      <File FileName="EliDinner.Infrastructure/Authentication/JwtSettings.cs" />
+      <File FileName="EliDinner.Infrastructure/Authentication/JwtTokenGenerator.cs" />
+      <File FileName="EliDinner.Infrastructure/Persistence/UserRepository.cs" />
+      <File FileName="EliDinner.Infrastructure/Services/DateTimeProvider.cs" Line="2" Column="56" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EliDinner" expanded="True">
-            <Node name="EliDinner.Api">
-              <Node name="appsettings.json" expanded="True">
-                <Node name="appsettings.Development.json" selected="True" />
+          <Node name="EliDinner">
+            <Node name="EliDinner.Infrastructure" expanded="True">
+              <Node name="Authentication" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="DateTimeProvider.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="EliDinner.Application">
-              <Node name="Authentication" expanded="True">
-                <Node name="Commands" expanded="True">
-                  <Node name="Register" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Common" expanded="True" />
-            </Node>
-            <Node name="EliDinner.Infrastructure" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>

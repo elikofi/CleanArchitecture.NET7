@@ -5,8 +5,10 @@ using EliDinner.Application.Common.Interfaces.Persistence;
 using EliDinner.Application.Common.Interfaces.Services;
 using EliDinner.Infrastructure.Authentication;
 using EliDinner.Infrastructure.Persistence;
+using EliDinner.Infrastructure.Persistence.Repositories;
 using EliDinner.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -26,6 +28,8 @@ namespace EliDinner.Infractructure
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
             services.AddScoped<IUserRepository, UserRepository>();
+
+            services.AddDbContext<EliDinnerDbContext>(options => options.UseNpgsql());
 
             return services;
         }

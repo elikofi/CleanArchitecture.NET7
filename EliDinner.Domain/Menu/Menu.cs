@@ -1,5 +1,6 @@
 ﻿using System;
 using EliDinner.Domain.Common.Models;
+using EliDinner.Domain.Common.ValueObjects;
 using EliDinner.Domain.Dinner.ValueObjects;
 using EliDinner.Domain.Host.ValueObjects;
 using EliDinner.Domain.Menu.Entities;
@@ -18,7 +19,7 @@ namespace EliDinner.Domain.Menu
 
 		public string Description { get; }
 
-		public float AverageRating { get; }
+		public AverageRating AverageRating { get; }
 
         public IReadOnlyList<MenuSection> Sections => _sections.AsReadOnly();
 
