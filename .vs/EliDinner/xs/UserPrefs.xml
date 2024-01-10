@@ -1,20 +1,39 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{B2AF0CC1-3943-453F-BE2F-C2BCE02BF27E}|https">
+﻿<Properties StartupConfiguration="{B2AF0CC1-3943-453F-BE2F-C2BCE02BF27E}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Infrastructure/Services/DateTimeProvider.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EliDinner.Infrastructure/Persistence/Configurations/MenuConfigurations.cs">
     <Files>
-      <File FileName="EliDinner.Infrastructure/Authentication/JwtSettings.cs" />
-      <File FileName="EliDinner.Infrastructure/Authentication/JwtTokenGenerator.cs" />
-      <File FileName="EliDinner.Infrastructure/Persistence/UserRepository.cs" />
-      <File FileName="EliDinner.Infrastructure/Services/DateTimeProvider.cs" Line="2" Column="56" />
+      <File FileName="EliDinner.Infrastructure/Persistence/EliDinnerDbContext.cs" Line="15" Column="50" />
+      <File FileName="EliDinner.Infrastructure/Persistence/MenuRepository.cs" Line="20" Column="29" />
+      <File FileName="EliDinner.Infrastructure/Persistence/Configurations/MenuConfigurations.cs" Line="26" Column="43" />
+      <File FileName="EliDinner.Domain/Menu/Menu.cs" Line="21" Column="1" NotebookId="1" />
+      <File FileName="EliDinner.Domain/Menu/ValueObjects/MenuId.cs" Line="33" Column="1" NotebookId="1" />
+      <File FileName="EliDinner.Domain/Common/Models/ValueObject.cs" Line="4" Column="24" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EliDinner">
+            <Node name="EliDinner.Domain" expanded="True">
+              <Node name="Common" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Host" expanded="True">
+                <Node name="ValueObjects" expanded="True" />
+              </Node>
+              <Node name="Menu" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="ValueObjects" expanded="True" />
+              </Node>
+            </Node>
             <Node name="EliDinner.Infrastructure" expanded="True">
-              <Node name="Authentication" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="DateTimeProvider.cs" selected="True" />
+              <Node name="Persistence" expanded="True">
+                <Node name="Configurations" expanded="True">
+                  <Node name="MenuConfigurations.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -22,10 +41,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EliDinner.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
